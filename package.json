@@ -1,0 +1,30 @@
+{
+  "name": "notenest-workspace",
+  "version": "1.0.0",
+  "description": "NoteNest — Smart Study Material Sharing Platform (FLEXI Project)",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev:backend": "cd server && npm run dev",
+    "dev:frontend": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "test:backend": "cd server && node test-api.js",
+    "test:e2e": "node test-e2e.js",
+    "deploy": "npx vercel",
+    "deploy:prod": "npx vercel --prod"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}

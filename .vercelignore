@@ -1,0 +1,12 @@
+# Ignore local files for Vercel deployment
+.git
+.DS_Store
+*.log
+test-api.js
+test-e2e.js
+test-serverless.js
+backend/uploads/*
+server/uploads/*
+!backend/uploads/.gitkeep
+!server/uploads/.gitkeep
+
